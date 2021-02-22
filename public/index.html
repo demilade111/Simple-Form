@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div
+    class="text-center w-11/12 sm:w-10/12 lg:w-8/12 xl:w-4/12  m-auto mt-10 lg:mt-5 h-98  shadow-xl text-white bg-black font-font-Montserrat border-2 border-grey-900 "
+    id="container">
+    <div class="bg-gray-800 flex justify-between py-6 px-3  text-2xl font-font-Montserrat font-bold " id="form__header">
+      <h1 class="m-auto  pointer-events-none " id='heading'>Login In To Your Account<h1>
+          <!-- <a href="">Sign Up?</a> -->
+    </div>
+    <div class="mt-5 w-full m-auto p-5 relative " id="form__body">
+      <form action="" id="form">
+        <div id="input">
+          <span class="text-xl" id="Error"></span>
+          <input
+            class=" w-full  ml-2 rounded p-4 mb-11  placeholder-black focus:transparent font-semibold text-base text-black border-red-700 focus:outline-none focus:ring-2"
+            placeholder="Email" type="text" id="Input-Email">
+            
+
+          <br>
+          <span class="text-lg" id="Error2"></span>
+          <input
+            class="w-12 ml-2 p-4 rounded placeholder-black focus:outline-none focus:ring-2 focus focus:border-transparent font-semo font-semibold text-base text-black "
+            placeholder="Password" type="password" id="Input-password">
+        
+
+
+        </div>
+
+        <div class="mt-10 " id="form-footer">
+          <button
+            class="border-2 px-8 py-3 rounded-lg text-white focus:outline-none w-9/12  text-xl  cursor-pointer bg-orange block m-auto border-none transition duration-500 ease-linear transform hover:-translate-y-1 hover:scale-110 ... opacity-80 mt-14 sm:mt-20"
+            type="submit" id="Login">Log
+            In</button>
+          <br>
+          <h4 class="mt-3 lg:mt-7 hover:no:underline text-sm cursor-pointer font-medium">Forgot Passsword</h4>
+        </div>
+
+      </form>
+
+      <!-- </div> -->
+      <div class="container bg-re-800 p-5 mt-6  w-full  sm:w-8/12 lg:w-9/12 text-center m-auto"
+        id="sign-up-section border-solid">
+        <a class="cursor-pointer text-sm bg-transparent border-none text-orange " href="signup.html">
+          <span class="text-white">Don't have an account?</span> Sign Up</a>
+
+
+      </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
